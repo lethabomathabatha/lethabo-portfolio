@@ -27,7 +27,7 @@ export default function App () {
     return (
         <div className="main--container">
             <nav>
-                <img src="./public/lethabo-logo-o-bg.png" width="90px" alt="Lethabo Logo" />
+                <img src="./lethabo-logo-o-bg.png" width="90px" alt="Lethabo Logo" />
 
                
                 <div className="nav--menu-items">
@@ -45,7 +45,7 @@ export default function App () {
             <header>
               <div className="section--hero">
                 <h1 className="hero--text-title">Designer & Developer</h1>
-                <img src="./public/background.jpg" className="section--hero-image"></img>
+                <img src="./background.jpg" className="section--hero-image"></img>
                 <div className="work-availability">
                   <WorkAvailability />
                 </div>
@@ -59,7 +59,7 @@ export default function App () {
                   <span className="about--section-name">
                     <span className="about--section-name1">Lethabo</span>
                     {/* <span className="about--section-name2">Mathabatha</span> */}
-                    <img src="./public/arrow.png" alt="arrow" className="about--section-arrow"/>
+                    <img src="./arrow.png" alt="arrow" className="about--section-arrow"/>
                   </span>
 
                 <span className="about--section-paragraph">I’m an architectural technologist turned <strong>software developer</strong> from South Africa. You could say transforming concepts into beautiful, scalable, real-life working solutions is my thing. (And this is only beginning.) 
@@ -129,13 +129,13 @@ export default function App () {
 
                   <div className="project--slide">
                     <div className="project-number">
-                        <img src="./public/number-one.png" />
+                        <img src="./number-one.png" />
                     </div>
         
                     <h5>HTML, CSS, JavaScript, React</h5>
 
                     <div className='image-container'>
-                      <img src="./public/pods-image.png" alt="Pods App Image" />
+                      <img src="./pods-image.png" alt="Pods App Image" />
                       <div className='projects--section-overlay'>
                         <h2>Pods</h2>
                         <span className="projects--section-paragraph">Pods is a mock podcast platform that allows you to browse and play podcasts from an api.</span>
@@ -158,13 +158,13 @@ export default function App () {
 
               <div className="project--slide">
                     <div className="project-number">
-                        <img src="./public/number-two.png" />
+                        <img src="./number-two.png" />
                     </div>
                     
                     <h5>HTML, CSS, TypeScript, React</h5>
                     
                     <div className='image-container'>
-                      <img src="./public/spoonfed-image.png" alt="SpoonFed Project" style={{backgroundColor:"var(--charcoal)"}}/>
+                      <img src="./spoonfed-image.png" alt="SpoonFed Project" style={{backgroundColor:"var(--charcoal)"}}/>
                       {/* <h3>SpoonFed</h3> */}
                       <div className='projects--section-overlay'>
                         <h2>SpoonFed</h2>
@@ -190,13 +190,13 @@ export default function App () {
 
                 <div className="project--slide">
                     <div className="project-number">
-                        <img src="./public/number-three.png" />
+                        <img src="./number-three.png" />
                     </div>
         
                     <h5>HTML, CSS, JavaScript, React</h5>
 
                     <div className='image-container'>
-                      <img src="./public/property-manager-image.png" alt="Aluve Property Manager Project" />
+                      <img src="./property-manager-image.png" alt="Aluve Property Manager Project" />
 
                       <div className='projects--section-overlay'>
                         <h2>Aluve App Property Manager</h2>
@@ -355,7 +355,7 @@ export default function App () {
                 </div>
 
                 <div className="contact--section-logo-wrapper">
-                  <img src="./public/lethabo-logo-o-bg.png" alt="Lethabo Logo" className="contact--section-logo"/>
+                  <img src="./lethabo-logo-o-bg.png" alt="Lethabo Logo" className="contact--section-logo"/>
 
                   <span className="contact--section-paragraph">As a new developer, I am always open to opportunities 
                     to learn from and to share my skills where I can - get in touch!
