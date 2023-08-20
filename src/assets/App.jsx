@@ -178,7 +178,7 @@ export default function App () {
                             border: "2px solid white",
                             backgroundColor: "var(--charcoal)",
                           }}
-                        >Coming 18/09/23</Button>
+                        >Coming Soon</Button>
                       </div>
                      
                     
