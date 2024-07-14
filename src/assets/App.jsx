@@ -73,7 +73,7 @@ export default function App () {
                     variant="contained"
                     
                     href="#contact"
-                    size="large"
+                    size="small"
                     sx={{
                       backgroundColor: "white",
                       color: "black",
@@ -98,7 +98,7 @@ export default function App () {
                     variant="contained"
                     
                     href="#skills"
-                    size="large"
+                    size="small"
                     sx={{
                       backgroundColor: "white",
                       color: "black",
