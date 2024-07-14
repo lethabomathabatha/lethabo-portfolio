@@ -62,7 +62,7 @@ export default function App () {
                     <img src="./arrow.png" alt="arrow" className="about--section-arrow"/>
                   </span>
 
-                <span className="about--section-paragraph">I’m an architectural technologist turned <strong>software developer</strong> from South Africa. You could say transforming concepts into beautiful, scalable, real-life working solutions is my thing. (And this is only beginning.) 
+                <span className="about--section-paragraph">I’m an architectural technologist turned <strong>software developer</strong> from South Africa. You could say transforming concepts into beautiful, scalable, real-life working solutions is my thing.  
                 <br /> <br /> 
                 Let’s create something great together.
                 <br /> <br />
@@ -286,7 +286,7 @@ export default function App () {
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "30%",
+                    borderRadius: "50%",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
@@ -312,11 +312,11 @@ export default function App () {
                     color: "black",
                     textTransform: "none",
                     size: "large",
-                    fontSize: "2rem",
+                    fontSize: "1.5rem",
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "3rem",
+                    borderRadius: "50%",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
@@ -339,11 +339,11 @@ export default function App () {
                     color: "black",
                     textTransform: "none",
                     size: "large",
-                    fontSize: "2rem",
+                    fontSize: "1.5rem",
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "3rem",
+                    borderRadius: "50%",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
