@@ -276,13 +276,13 @@ export default function App () {
                   className="contact--section-contact"
                   variant="contained"
                     
-                  size="large"
+                  size="small"
                   sx={{
                     backgroundColor: "white",
                     color: "black",
                     textTransform: "none",
                     size: "large",
-                    fontSize: "2rem",
+                    fontSize: "1.2rem",
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
@@ -306,7 +306,7 @@ export default function App () {
                     window.open("https://github.com/lethabomathabatha");
                   }}
                   
-                  size="large"
+                  size="small"
                   sx={{
                     backgroundColor: "white",
                     color: "black",
@@ -333,7 +333,7 @@ export default function App () {
                       window.open("https://www.linkedin.com/in/lethabo-mathabatha-455a8b18a/", "_blank");
                   }}
                   
-                  size="large"
+                  size="small"
                   sx={{
                     backgroundColor: "white",
                     color: "black",
