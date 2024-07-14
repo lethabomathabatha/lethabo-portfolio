@@ -286,7 +286,7 @@ export default function App () {
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "10%",
+                    borderRadius: "20%",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
