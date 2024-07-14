@@ -282,11 +282,11 @@ export default function App () {
                     color: "black",
                     textTransform: "none",
                     size: "large",
-                    fontSize: "1.2rem",
+                    fontSize: "1.5rem",
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "3rem",
+                    borderRadius: "30%",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
