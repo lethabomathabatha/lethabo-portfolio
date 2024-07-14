@@ -316,7 +316,7 @@ export default function App () {
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "2.8rem",
+                    borderRadius: "3rem",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
@@ -343,7 +343,7 @@ export default function App () {
                     fontFamily: "Epilogue, sans-serif",
                     fontWeight: "800",
                     border: "1px solid black",
-                    borderRadius: "50%",
+                    borderRadius: "3rem",
                     "&:hover": {
                       backgroundColor: "black",
                       color: "white",
