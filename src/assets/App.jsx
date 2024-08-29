@@ -169,16 +169,17 @@ export default function App () {
                       <div className='projects--section-overlay'>
                         <h2>SpoonFed</h2>
                         <span className="projects--section-paragraph">SpoonFeed is a platform that gives you recipes based on the ingredients you have. 
-                          <br/> <br/> Spoonfed utilizes Edamam's API to search for recipes and specific meals, and it features built-in food type filters for quick finds.</span>
+                          <br/> <br/> Spoonfed utilizes Edamam&apos;s API to search for recipes and specific meals, and it features built-in food type filters for quick finds.</span>
 
                         <Button variant="" 
                           className="projects--section-button"
+                          onClick={() => window.open("https://lethabomathabatha.github.io/spoonfed-latest/")}
                           sx={{
                             color: "white",
                             border: "2px solid white",
                             backgroundColor: "var(--charcoal)",
                           }}
-                        >Coming Soon</Button>
+                        >VISIT</Button>
                       </div>
                      
                     
