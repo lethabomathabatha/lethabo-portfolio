@@ -228,43 +228,62 @@ export default function App () {
               
               <div className="skills--section-container">
                 <div className="icon-container">
-                  <img src="./icon _css3_.png" alt="CSS Icon"  className="skills--section-icon"/>
+                  {/* <img src="./icon _css3_.png" alt="CSS Icon"  className="skills--section-icon"/> */}
                   <span>CSS</span>
+                </div>
+                <div className="icon-container">
+                  <span>Sass</span>
+                </div>
+                <div className="icon-container">
+                  <span>Tailwind CSS</span>
+                </div>
+                <div className="icon-container">
+                  <span>Bootstrap</span>
                 </div>
 
                 <div className="icon-container">
-                  <img src="./icon _html5_.png" alt="HTML Icon" width={"40px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _html5_.png" alt="HTML Icon" width={"40px"} className="skills--section-icon"/> */}
                   <span>HTML</span>
                 </div>
 
                 <div className="icon-container">
-                  <img src="./icon _javascript_.png" alt="JavaScript Icon" width={"40px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _javascript_.png" alt="JavaScript Icon" width={"40px"} className="skills--section-icon"/> */}
                   <span>JavaScript</span>
                 </div>
                 
                 <div className="icon-container">
-                  <img src="./icon _typescript_.png" alt="TypeScript Icon" width={"40px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _typescript_.png" alt="TypeScript Icon" width={"40px"} className="skills--section-icon"/> */}
                   <span>TypeScript</span>
                 </div>
 
                 <div className="icon-container">
-                  <img src="./icon _react_.png" alt="React Icon" width={"40px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _react_.png" alt="React Icon" width={"40px"} className="skills--section-icon"/> */}
                   <span>React</span>
                 </div>
 
                 <div className="icon-container">
-                  <img src="./icon _vue dot js_.png" alt="Vue Icon" width={"40px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _vue dot js_.png" alt="Vue Icon" width={"40px"} className="skills--section-icon"/> */}
                   <span>Vue</span>
                 </div>
                 
                 <div className="icon-container">
-                  <img src="./icon _figma_.png" alt="Figma Icon" width={"30px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _figma_.png" alt="Figma Icon" width={"30px"} className="skills--section-icon"/> */}
                   <span>Figma</span>
                 </div>
 
                 <div className="icon-container">
-                  <img src="./icon _github_.png" alt="Github Icon" width={"40px"} className="skills--section-icon"/>
+                  {/* <img src="./icon _github_.png" alt="Github Icon" width={"40px"} className="skills--section-icon"/> */}
                   <span>Github</span>
+                </div>
+                <div className="icon-container">
+                  <span>PHP</span>
+                </div>
+                <div className="icon-container">
+                  <span>Laravel</span>
+                </div>
+
+                <div className="icon-container">
+                  <span>SQL</span>
                 </div>
               </div>
               
