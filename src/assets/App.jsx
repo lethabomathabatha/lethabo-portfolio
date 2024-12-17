@@ -199,8 +199,7 @@ export default function App () {
                         height="550" 
                         src="https://embed.figma.com/proto/34behOe6ZIQNr5qNsl717N/FreshPrices?page-id=0%3A1&amp;node-id=23-123&amp;node-type=frame&amp;viewport=1102%2C-4600%2C1.3&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=48%3A784&amp;embed-host=share" 
                         allowfullscreen="" 
-                        style="border: 1px solid rgba(0, 0, 0, 0.1); 
-                        border-radius:20px" 
+                        style={{ border: "1px solid rgba(0, 0, 0, 0.1)", borderRadius: "20px" }}
                         width="280">
                     </iframe>
 
