@@ -126,9 +126,69 @@ export default function App () {
 
             <div className="projects--section" id="projects">
               <span className="projects--section-header">Selected Projects</span>
-                                <div className="project--slide">
+
+
+                  <div className="project--slide">
                     <div className="project-number">
                         <img src="./number-one.png" />
+                    </div>
+        
+                    <h5>HTML, CSS, JavaScript, React | 2023</h5>
+
+                    <div className='image-container'>
+                      <img src="./pods-image.png" alt="Pods App Image" />
+                      <div className='projects--section-overlay'>
+                        <h2>Pods</h2>
+                        <span className="projects--section-paragraph">Pods is a mock podcast platform that allows you to browse and play podcasts from an api.</span>
+                      
+                        <Button variant="" 
+                          className="projects--section-button"
+                          onClick={() => window.open("https://podsapp.netlify.app")}
+                          sx={{
+                            color: "white",
+                            border: "2px solid white",
+                            backgroundColor: "var(--light-purple)",
+                          }}
+                        >Visit</Button>
+                      </div>
+                      
+                    </div>
+                </div>
+
+
+
+              <div className="project--slide">
+                    <div className="project-number">
+                        <img src="./number-two.png" />
+                    </div>
+                    
+                    <h5>HTML, CSS, TypeScript, React | 2023</h5>
+                    
+                    <div className='image-container'>
+                      <img src="./spoonfed-image.png" alt="SpoonFed Project" style={{backgroundColor:"var(--charcoal)"}}/>
+                      {/* <h3>SpoonFed</h3> */}
+                      <div className='projects--section-overlay'>
+                        <h2>SpoonFed</h2>
+                        <span className="projects--section-paragraph">SpoonFeed is a platform that gives you recipes based on the ingredients you have. 
+                          <br/> <br/> Spoonfed utilizes Edamam&apos;s API to search for recipes and specific meals, and it features built-in food type filters for quick finds.</span>
+
+                        <Button variant="" 
+                          className="projects--section-button"
+                          onClick={() => window.open("https://lethabomathabatha.github.io/spoonfed-latest/")}
+                          sx={{
+                            color: "white",
+                            border: "2px solid white",
+                            backgroundColor: "var(--charcoal)",
+                          }}
+                        >VISIT</Button>
+                      </div> 
+                    <br/>
+                  </div>
+                </div>
+
+                <div className="project--slide">
+                    <div className="project-number">
+                        <img src="./number-three.png" />
                     </div>
         
                     <h5>Figma | 2024</h5>
@@ -162,67 +222,6 @@ export default function App () {
                     </div> */}
                 </div>
             </div>
-
-                  <div className="project--slide">
-                    <div className="project-number">
-                        <img src="./number-two.png" />
-                    </div>
-        
-                    <h5>HTML, CSS, JavaScript, React | 2023</h5>
-
-                    <div className='image-container'>
-                      <img src="./pods-image.png" alt="Pods App Image" />
-                      <div className='projects--section-overlay'>
-                        <h2>Pods</h2>
-                        <span className="projects--section-paragraph">Pods is a mock podcast platform that allows you to browse and play podcasts from an api.</span>
-                      
-                        <Button variant="" 
-                          className="projects--section-button"
-                          onClick={() => window.open("https://podsapp.netlify.app")}
-                          sx={{
-                            color: "white",
-                            border: "2px solid white",
-                            backgroundColor: "var(--light-purple)",
-                          }}
-                        >Visit</Button>
-                      </div>
-                      
-                    </div>
-                </div>
-
-
-
-              <div className="project--slide">
-                    <div className="project-number">
-                        <img src="./number-three.png" />
-                    </div>
-                    
-                    <h5>HTML, CSS, TypeScript, React | 2023</h5>
-                    
-                    <div className='image-container'>
-                      <img src="./spoonfed-image.png" alt="SpoonFed Project" style={{backgroundColor:"var(--charcoal)"}}/>
-                      {/* <h3>SpoonFed</h3> */}
-                      <div className='projects--section-overlay'>
-                        <h2>SpoonFed</h2>
-                        <span className="projects--section-paragraph">SpoonFeed is a platform that gives you recipes based on the ingredients you have. 
-                          <br/> <br/> Spoonfed utilizes Edamam&apos;s API to search for recipes and specific meals, and it features built-in food type filters for quick finds.</span>
-
-                        <Button variant="" 
-                          className="projects--section-button"
-                          onClick={() => window.open("https://lethabomathabatha.github.io/spoonfed-latest/")}
-                          sx={{
-                            color: "white",
-                            border: "2px solid white",
-                            backgroundColor: "var(--charcoal)",
-                          }}
-                        >VISIT</Button>
-                      </div>
-                     
-                    
-                    <br/>
-                  </div>
-                </div>
-
 
             <div className="skills--section" id='skills'>
               <div className="skills--section-header-wrapper">
