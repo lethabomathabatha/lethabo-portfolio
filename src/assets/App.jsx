@@ -381,7 +381,7 @@ export default function App () {
                 <div className="contact--section-logo-wrapper">
                   <img src="./lethabo-logo-o-bg.png" alt="Lethabo Logo" className="contact--section-logo"/>
 
-                  <span className="contact--section-paragraph">As a new developer, I am always open to opportunities 
+                  <span className="contact--section-paragraph">I am always open to opportunities 
                     to learn from and to share my skills where I can - get in touch!
                   </span>
 
